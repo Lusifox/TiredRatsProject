@@ -1,0 +1,26 @@
+from numpy import *
+
+n=int(input("n="))
+
+x=array([[i]*n for i in range(1,n+1)])
+print(x)
+print()
+y=array([[i]*n for i in range(1,n+1)])
+print(y)
+print()
+
+print("Сложение \n",add(x,y))
+print()
+print("Вычитание \n",subtract(x,y))
+print()
+print("Умножение \n",multiply(x,y))
+print()
+print("Деление \n",divide(x,y))
+print()
+print("Деление без остатка \n",floor_divide(x,y))
+print()
+print("Умножение матриц \n",dot(x,y))
+print()
+print("Унарная операция изменения знака для x\n",negative(x))
+print()
+print("Унарная операция изменения знака для y\n",negative(y))
